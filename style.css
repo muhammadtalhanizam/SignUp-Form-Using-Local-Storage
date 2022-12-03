@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+
+body{
+	
+	height: 100vh;
+	/* background-image: url(./Images/bg-image.png); */
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+
+
+
+.signup-page
+{
+	text-align: center;
+    max-width:380px;
+	background:rgba(0, 0, 0, 0.712);
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.425) 0px 5px 15px;
+	border-radius: 30px;
+    margin: 8% auto;
+	
+}
+
+
+h1{
+	color: white ;
+	margin-bottom: 30px;
+}
+
+.input-field 
+{
+	width: 90%;
+	padding:10px 12px;
+	margin:10px auto;
+
+	border: 1px solid #999;
+	outline:none;
+	background: transparent;
+	border-radius: 20px;
+}
+
+form span, a{
+	color:#999;
+	
+	font-size: 16px;
+	font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.check-box{
+	color:white;
+	margin:5px 10px;
+}
+
+
+input{
+	color:white;
+	font-size: 16px;
+}
+
+input:active{
+	background-color: #32ACB4 ;
+}
+
+hr{
+	margin: 5px;
+}
+button
+{
+	width: 50%;
+	padding: 10px 20px;
+	cursor: pointer;
+	display: flex ;
+    justify-content: center;
+    font-size: 15px;
+	margin: 12px auto;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	transition: all 1s ease;
+}
+
+.submit-btn{
+	background-color: #5B84D4;
+}
+
+.submit-btn:hover{
+	background-color: #2258C3;
+	transform: translateY(-5px);
+}
+
